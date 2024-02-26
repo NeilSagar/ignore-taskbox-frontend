@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL="http://localhost:5000";
+const URL="https://ignore-taskbox-backend.onrender.com";
 
 export const getAllTasks=async()=>{
     try {
