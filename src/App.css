@@ -1,0 +1,108 @@
+body{
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+  background-color: #E6FFFD;
+}
+.task-component{
+  width:450px;
+  margin:50px auto;
+  padding:20px;
+  
+}
+.task-heading{
+  background-color: #526D82;
+  padding:20px;
+  font-size:40px;
+  margin:0;
+  border-radius:20px;
+  color:#fff;
+  box-shadow: 3px 3px 5px #a8aaad72;
+  text-align: center;
+}
+.task-content{
+  margin-top:50px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding:10px;
+  box-shadow: 3px 3px 5px #a8aaad72;
+}
+.task-item{
+  margin:20px 0;
+  padding:0 30px;
+  color:#27374D;
+  transition: transform 250ms;
+  display: flex;
+}
+.task-item:hover{
+  transform: translateY(-2px);
+}
+
+
+.task-add-input{
+  width:70%;
+  margin:0;
+  border:0;
+  padding:10px 0 3px 10px;
+  font-size:24px;
+  background:none;
+  border-bottom: 1px solid #fff;
+}
+.task-add-input:hover{
+  border-bottom: 1px solid #526D82;
+}
+.task-add-input:focus{
+  outline: 0;
+  border-bottom: 1px solid #526D82;
+  opacity: 0.8;
+}
+.task-add-input::placeholder{
+  color:#526D82;
+}
+.task-add-sec{
+
+  padding:0 30px;
+  display: flex;
+  justify-content: space-between;
+  margin:30px 0 20px;
+}
+.task-add-button{
+  width:60px;
+  height:60px;
+  border:0;
+  border-radius:30px;
+  background-color: #526D82;
+  color:white;
+  transition: transform 250ms;
+  
+}
+.task-add-button:hover{
+  background-color: #374259;
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px #9DB2BF;
+}
+.task-delete-button{
+  width:50px;
+  height:50px;
+  border:0;
+  background:none;
+  color:#526D82;
+  border-radius: 25px;
+  transition: transform 250ms;
+  margin-left:auto;
+}
+.task-delete-button:hover{
+  color:#fff;
+  background-color: #B70404;
+  box-shadow: 1.5px 1.5px 5px #9DB2BF;
+  transform: translateY(-2px);
+}
+button:hover{
+  cursor: pointer;
+}
+
+.no-task-message{
+  font-size:16px;
+  word-spacing: 2px;
+  line-height: 1.2;
+  width:70%;
+  margin:20px auto;
+}
